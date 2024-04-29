@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".milk_rate">
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="134dp"
+        android:layout_height="43dp"
+        android:layout_x="129dp"
+        android:layout_y="46dp"
+        android:text="MilkRate"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:background="#C0C0C0"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/button6"
+        android:layout_width="131dp"
+        android:layout_height="60dp"
+        android:layout_x="51dp"
+        android:layout_y="165dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Cow Milk" />
+
+    <TextView
+        android:id="@+id/button7"
+        android:layout_width="126dp"
+        android:layout_height="59dp"
+        android:layout_x="59dp"
+        android:layout_y="267dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Buffalo Milk" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="211dp"
+        android:layout_y="168dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="22 RS per Liter" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="206dp"
+        android:layout_y="269dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="58 RS per Liter" />
+</AbsoluteLayout>

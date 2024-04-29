@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pro">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="171dp"
+        android:layout_height="134dp"
+        android:layout_x="7dp"
+        android:layout_y="139dp"
+        app:srcCompat="@drawable/img_5"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="113dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="224dp"
+        android:layout_height="42dp"
+        android:layout_x="100dp"
+        android:layout_y="8dp"
+        android:background="#FF00FF"
+        android:gravity="center"
+        android:text="Gokul's Product"
+        android:textColor="#00FFFF"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="32dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="174dp"
+        android:layout_height="133dp"
+        android:layout_x="204dp"
+        android:layout_y="140dp"
+        app:srcCompat="@drawable/img_6"
+        tools:layout_editor_absoluteX="221dp"
+        tools:layout_editor_absoluteY="114dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="124dp"
+        android:layout_height="36dp"
+        android:layout_x="37dp"
+        android:layout_y="310dp"
+        android:gravity="center"
+        android:text="Dahiii
+                      price=20RS."
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="275dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="126dp"
+        android:layout_height="43dp"
+        android:layout_x="241dp"
+        android:layout_y="297dp"
+        android:gravity="center"
+        android:text="Milk
+                      price=15RS."
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        tools:layout_editor_absoluteX="255dp"
+        tools:layout_editor_absoluteY="275dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="167dp"
+        android:layout_height="135dp"
+        android:layout_x="17dp"
+        android:layout_y="402dp"
+        app:srcCompat="@drawable/img_7"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="365dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="110dp"
+        android:layout_height="36dp"
+        android:layout_x="39dp"
+        android:layout_y="589dp"
+        android:gravity="center"
+        android:text="Shrikhand
+                      price=30RS."
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="557dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="158dp"
+        android:layout_height="155dp"
+        android:layout_x="220dp"
+        android:layout_y="393dp"
+        app:srcCompat="@drawable/img_8"
+        tools:layout_editor_absoluteX="235dp"
+        tools:layout_editor_absoluteY="362dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="117dp"
+        android:layout_height="38dp"
+        android:layout_x="255dp"
+        android:layout_y="587dp"
+        android:gravity="center"
+        android:text="Ghee
+                      price=50RS."
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        tools:layout_editor_absoluteX="262dp"
+        tools:layout_editor_absoluteY="556dp" />
+</AbsoluteLayout>

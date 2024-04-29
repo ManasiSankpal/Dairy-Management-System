@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".user">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="-8dp"
+        app:srcCompat="@drawable/image" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="165dp"
+        android:layout_height="68dp"
+        android:layout_x="104dp"
+        android:layout_y="165dp"
+        android:text="Our Information" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="166dp"
+        android:layout_height="71dp"
+        android:layout_x="105dp"
+        android:layout_y="284dp"
+        android:text="Our Product" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="163dp"
+        android:layout_height="67dp"
+        android:layout_x="106dp"
+        android:layout_y="402dp"
+        android:text="Milk Rate" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="157dp"
+        android:layout_height="71dp"
+        android:layout_x="115dp"
+        android:layout_y="513dp"
+        android:text="Services provided to Farmer" />
+</AbsoluteLayout>
